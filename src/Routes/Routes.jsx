@@ -3,6 +3,7 @@ import Root from "../Layouts/Root";
 import Home from "../Pages/Home/Home";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import Contact from "../Pages/Contact/Contact";
+import About from "../Pages/About/About";
 
 
 const Routes = createBrowserRouter([
@@ -14,6 +15,10 @@ const Routes = createBrowserRouter([
             {
                 path: "/",
                 element: <Home></Home>
+            },
+            {
+                path: "/about",
+                element: <About></About>
             },
             {
                 path: "/contact",
