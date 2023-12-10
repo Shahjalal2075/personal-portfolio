@@ -3,10 +3,10 @@ import { PiGraduationCapBold } from "react-icons/pi";
 
 const ResumeHome = () => {
     return (
-        <div>
+        <div className="px-20">
             <h2 className="text-4xl text-center font-semibold my-16 text-[#FEC544]">Resume</h2>
             <div className="grid grid-cols-2 gap-44">
-                <div className="flex flex-col items-end text-right">
+                <div className="">
                     <div className="flex items-center gap-6">
                         <p className="text-4xl font-semibold">Experience</p>
                         <p className="text-5xl text-[#232936]"><PiToolboxBold /></p>
