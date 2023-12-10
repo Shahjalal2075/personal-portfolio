@@ -4,7 +4,7 @@ import Footer from "../Shared/Footer/Footer";
 
 const Root = () => {
     return (
-        <div className="bg-[#CCEAF8]">
+        <div className="bg-[#0A101E] text-[#FDFEFF]">
             <div className="container mx-auto">
                 <Header></Header>
                 <Outlet></Outlet>
