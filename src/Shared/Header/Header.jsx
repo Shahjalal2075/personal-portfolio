@@ -4,7 +4,7 @@ import "./Header.css";
 
 const Header = () => {
     return (
-        <div>
+        <div className="">
             <div className="navbar text-lg font-semibold py-5">
                 <div className="navbar-start">
                     <div className="dropdown">
