@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "name": "News Site",
+      "category": "Electronics",
+      "photo": "https://raw.githubusercontent.com/Shahjalal2075/Shahjalal/main/assets/img/portfolio/portfolio1.png",
+      "link": "https://example.com/productA"
+    },
+    {
+      "id": 2,
+      "name": "Company Website",
+      "category": "Clothing",
+      "photo": "https://raw.githubusercontent.com/Shahjalal2075/Shahjalal/main/assets/img/portfolio/portfolio2.png",
+      "link": "https://example.com/productB"
+    },
+    {
+      "id": 3,
+      "name": "App Landing Page",
+      "category": "Home & Kitchen",
+      "photo": "https://raw.githubusercontent.com/Shahjalal2075/Shahjalal/main/assets/img/portfolio/portfolio3.png",
+      "link": "https://example.com/productC"
+    },
+    {
+      "id": 4,
+      "name": "App Landing Page",
+      "category": "Books",
+      "photo": "https://raw.githubusercontent.com/Shahjalal2075/Shahjalal/main/assets/img/portfolio/portfolio4.png",
+      "link": "https://example.com/productD"
+    },
+    {
+      "id": 5,
+      "name": "Hotel Website",
+      "category": "Beauty",
+      "photo": "https://raw.githubusercontent.com/Shahjalal2075/Shahjalal/main/assets/img/portfolio/portfolio5.png",
+      "link": "https://example.com/productE"
+    },
+    {
+      "id": 6,
+      "name": "Company Website",
+      "category": "Sports & Outdoors",
+      "photo": "https://raw.githubusercontent.com/Shahjalal2075/Shahjalal/main/assets/img/portfolio/portfolio6.png",
+      "link": "https://example.com/productF"
+    }
+  ]
+  
