@@ -44,7 +44,7 @@ const AboutHome = () => {
                             </div>
                         </div>
                         <div className="mt-10">
-                            <a href="#" className="px-8 py-3 bg-[#FEC544] rounded-3xl text-xl font-bold text-[#0A101E]">Download CV</a>
+                            <a target="blank" href="https://drive.google.com/file/d/1bucg9Lip6pU4tpVReUrFTpHKe_blIWI_/view?usp=sharing" className="px-8 py-3 bg-[#FEC544] rounded-3xl text-xl font-bold text-[#0A101E]">Download CV</a>
                         </div>
                     </div>
                 </div>

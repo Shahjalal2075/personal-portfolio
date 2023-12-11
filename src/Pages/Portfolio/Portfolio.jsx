@@ -6,11 +6,10 @@ const Portfolio = () => {
     const [portfolios,setPortfolios]=useState([]);
 
     useEffect(() => {
-        fetch('./../../../public/portfolios.json')
+        fetch('../../../public/portfolios.json')
             .then(res => res.json())
             .then(data => setPortfolios(data))
     }, []);
-    console.log(portfolios)
 
 
     return (
@@ -22,6 +21,7 @@ const Portfolio = () => {
                     portfolios.map((portfolio,idx) => <PortfolioCard
                         key={idx}
                         portfolio={portfolio}
+                        idx={idx}
                     ></PortfolioCard>)
                 }
             </div>
@@ -30,4 +30,3 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
-

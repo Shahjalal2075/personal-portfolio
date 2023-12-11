@@ -1,45 +1,27 @@
 [
     {
       "id": 1,
-      "name": "News Site",
-      "category": "Electronics",
-      "photo": "https://raw.githubusercontent.com/Shahjalal2075/Shahjalal/main/assets/img/portfolio/portfolio1.png",
-      "link": "https://example.com/productA"
+      "name": "Technology and Electronics",
+      "photo": "https://i.ibb.co/bW1mPMX/p1.png",
+      "client_code": "https://github.com/Shahjalal2075/tech-client",
+      "server_code": "https://github.com/Shahjalal2075/tech-server",
+      "live_link": "https://technology-and-electroni-53df3.web.app/"
     },
     {
       "id": 2,
       "name": "Company Website",
-      "category": "Clothing",
-      "photo": "https://raw.githubusercontent.com/Shahjalal2075/Shahjalal/main/assets/img/portfolio/portfolio2.png",
-      "link": "https://example.com/productB"
+      "photo": "https://i.ibb.co/mb95xFD/p2.png",
+      "client_code": "https://github.com/Shahjalal2075/hotel-client",
+      "server_code": "https://github.com/Shahjalal2075/hotel-server",
+      "live_link": "https://hotel-1c071.web.app/"
     },
     {
       "id": 3,
-      "name": "App Landing Page",
-      "category": "Home & Kitchen",
-      "photo": "https://raw.githubusercontent.com/Shahjalal2075/Shahjalal/main/assets/img/portfolio/portfolio3.png",
-      "link": "https://example.com/productC"
-    },
-    {
-      "id": 4,
-      "name": "App Landing Page",
-      "category": "Books",
-      "photo": "https://raw.githubusercontent.com/Shahjalal2075/Shahjalal/main/assets/img/portfolio/portfolio4.png",
-      "link": "https://example.com/productD"
-    },
-    {
-      "id": 5,
-      "name": "Hotel Website",
-      "category": "Beauty",
-      "photo": "https://raw.githubusercontent.com/Shahjalal2075/Shahjalal/main/assets/img/portfolio/portfolio5.png",
-      "link": "https://example.com/productE"
-    },
-    {
-      "id": 6,
-      "name": "Company Website",
-      "category": "Sports & Outdoors",
-      "photo": "https://raw.githubusercontent.com/Shahjalal2075/Shahjalal/main/assets/img/portfolio/portfolio6.png",
-      "link": "https://example.com/productF"
+      "name": "Employee Management",
+      "photo": "https://i.ibb.co/sm0QMWw/p3.png",
+      "client_code": "https://github.com/Shahjalal2075/employee-management",
+      "server_code": "https://github.com/Shahjalal2075/employee-server",
+      "live_link": "https://magical-flavor.surge.sh/"
     }
   ]
   
