@@ -7,20 +7,11 @@ import { FaTwitter } from "react-icons/fa";
 
 const Contact = () => {
 
-    const handleSubmitForm = e => {
-        e.preventDefault();
-        const name = e.target.name.value;
-        const email = e.target.email.value;
-        const message = e.target.message.value;
-        const reviewMessage = { name, email, message };
-        console.log(reviewMessage);
-
-    }
 
     return (
         <div>
             <h2 className="text-5xl text-center font-semibold my-16 text-[#FEC544]">Contact Me</h2>
-            <div className="grid grid-cols-2 gap-10">
+            <div className="grid lg:grid-cols-2 grid-cols-1 gap-10">
                 <div className="">
                     <h2 className="text-4xl font-semibold text-center mb-4">Just say Hello</h2>
                     <form action="https://formspree.io/f/xleyqaee" className="flex flex-col justify-center items-center " method="post">
@@ -32,7 +23,7 @@ const Contact = () => {
 
                     </form>
                 </div>
-                <div className="">
+                <div className="mx-5 lg:mx-0">
                     <h2 className="text-4xl font-semibold text-center mb-5">Contact Info</h2>
                     <p className="text-lg font-medium text-center my-6">If you want to contact us, here you will find our contact address.</p>
                     <div className="mt-6">
@@ -65,15 +56,15 @@ const Contact = () => {
                         <div className="flex mt-8 gap-6">
                             <a href="https://www.linkedin.com/shahjalal2075/" className="border rounded-full p-3 text-xl flex items-center gap-3">
                                 <FaLinkedin />
-                                <span className="">LinkedIn</span>
+                                <span className="hidden md:flex">LinkedIn</span>
                             </a>
                             <a href="https://www.facebook.com/shahjalal2075/" className="border rounded-full p-3 text-xl flex items-center gap-3">
                                 <FaFacebook />
-                                <span className="">Facebook</span>
+                                <span className="hidden md:flex">Facebook</span>
                             </a>
                             <a href="https://www.twitter.com/shahjalal2075/" className="border rounded-full p-3 text-xl flex items-center gap-3">
                                 <FaTwitter />
-                                <span className="">Twitter</span>
+                                <span className="hidden md:flex">Twitter</span>
                             </a>
                         </div>
                     </div>

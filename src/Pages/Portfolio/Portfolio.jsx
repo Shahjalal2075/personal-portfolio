@@ -16,7 +16,7 @@ const Portfolio = () => {
         <div>
             <h2 className="text-4xl text-center font-semibold my-16 text-[#FEC544]">Portfolios</h2>
 
-            <div className="grid grid-cols-3 gap-10">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 mx-5">
                 {
                     portfolios.map((portfolio,idx) => <PortfolioCard
                         key={idx}

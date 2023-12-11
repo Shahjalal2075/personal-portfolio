@@ -1,9 +1,9 @@
 
 const AboutHome = () => {
     return (
-        <div>
+        <div className="mx-5">
             <h2 className="text-4xl text-center font-semibold my-16 text-[#FEC544]">About Me</h2>
-            <div className="grid grid-cols-2 gap-10">
+            <div className="grid lg:grid-cols-2 grid-cols-1 gap-10">
                 <div className="">
                     <img className="w-full rounded-lg" src="https://i.ibb.co/Pz60Z9M/ssss2.jpg" alt="" />
                 </div>

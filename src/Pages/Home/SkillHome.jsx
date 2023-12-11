@@ -3,12 +3,12 @@ const SkillHome = () => {
     return (
         <div>
             <h2 className="text-4xl text-center font-semibold my-16 text-[#FEC544]">My Skills</h2>
-            <div className="grid grid-cols-2">
-                <div className="mx-10">
+            <div className="grid lg:grid-cols-2 grid-cols-1 gap-10 lg:gap-0">
+                <div className="lg:mx-10 mx-5 flex flex-col justify-center">
                     <h2 className="text-4xl font-medium">All the skills that I have in that field of work are mentioned.</h2>
-                    <p className="text-lg mt-8">I have rich experience in Designing and Developing Custom and theme based websites and has expertise with Development/Customization/Integration.<br /><br />My skills are also good fit in creating Landing Pages, Bootstrap, Email Templates, email setup, Manage Hosting, Revamp websites, PHP, Shopify, Adobe Photoshop, Adobe Illustrator, Bootstrap, HTML, CSS, JavaScript, jQuery, My SQL etc.<br /><br />I can make sure beautiful, responsive and user friendly website.</p>
+                    <p className="text-lg mt-8">I have rich experience in Designing and Developing Custom and theme based websites and has expertise with Development/Customization/Integration.<br /><br />My skills are also good fit in creating Landing Pages, Tailwind Css, React Js, Node Js, Express Js, MongoDB, HTML, CSS, JavaScript, jQuery etc.<br /><br />I can make sure beautiful, responsive and user friendly website.</p>
                 </div>
-                <div className="mx-20 flex flex-col justify-center">
+                <div className="lg:mx-20 mx-5 flex flex-col justify-center">
                     <div className="">
                         <div className="flex justify-between">
                             <h2 className="text-lg font-semibold">HTML</h2>

@@ -1,9 +1,9 @@
 
 const About = () => {
     return (
-        <div>
+        <div className="mx-5">
             <h2 className="text-4xl text-center font-semibold my-16 text-[#FEC544]">About Me</h2>
-            <div className="grid grid-cols-2 gap-10">
+            <div className="grid lg:grid-cols-2 grid-cols-1 gap-10">
                 <div className="">
                     <img className="w-full rounded-lg" src="https://i.ibb.co/Pz60Z9M/ssss2.jpg" alt="" />
                 </div>
@@ -44,7 +44,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className="mt-10">
-                            <a href="#" className="px-8 py-3 bg-[#FEC544] rounded-3xl text-xl font-bold text-[#0A101E]">Download CV</a>
+                            <a target="blank" href="https://drive.google.com/file/d/1bucg9Lip6pU4tpVReUrFTpHKe_blIWI_/view?usp=drive_link" className="px-8 py-3 bg-[#FEC544] rounded-3xl text-xl font-bold text-[#0A101E]">Download CV</a>
                         </div>
                     </div>
                 </div>
