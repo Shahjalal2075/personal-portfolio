@@ -23,11 +23,11 @@ const Contact = () => {
             <div className="grid grid-cols-2 gap-10">
                 <div className="">
                     <h2 className="text-4xl font-semibold text-center mb-4">Just say Hello</h2>
-                    <form onSubmit={handleSubmitForm} className="flex flex-col justify-center items-center " action="">
-                        <input className="border-[#FEC544] border-2 px-3 py-2 text-lg text-[#FEC544] bg-[#0A101E] rounded-xl mt-4 w-10/12" placeholder="Your Name" type="text" name="name" required />
-                        <input className="border-[#FEC544] border-2 px-3 py-2 text-lg text-[#FEC544] bg-[#0A101E] rounded-xl mt-4 w-10/12" placeholder="Your Email" type="email" name="email" required />
-                        <input className="border-[#FEC544] border-2 px-3 py-2 text-lg text-[#FEC544] bg-[#0A101E] rounded-xl mt-4 w-10/12" placeholder="Your Subject" type="text" name="subject" required />
-                        <textarea className="border-[#FEC544] border-2 p-3 h-48 text-xl text-black bg-[#0A101E] rounded-lg mt-4 w-10/12 text-start" placeholder="Your Message" type="text" name="message" required />
+                    <form action="https://formspree.io/f/xleyqaee" className="flex flex-col justify-center items-center " method="post">
+                        <input className="border-[#FEC544] border-2 px-3 py-2 text-lg text-[#fff] bg-[#0A101E] rounded-xl mt-4 w-10/12" placeholder="Your Name" type="text" name="name" required />
+                        <input className="border-[#FEC544] border-2 px-3 py-2 text-lg text-[#fff] bg-[#0A101E] rounded-xl mt-4 w-10/12" placeholder="Your Email" type="email" name="email" required />
+                        <input className="border-[#FEC544] border-2 px-3 py-2 text-lg text-[#fff] bg-[#0A101E] rounded-xl mt-4 w-10/12" placeholder="Your Subject" type="text" name="subject" required />
+                        <textarea className="border-[#FEC544] border-2 p-3 h-48 text-x text-[#fff] bg-[#0A101E] rounded-lg mt-4 w-10/12 text-start" placeholder="Your Message" type="text" name="message" required />
                         <input className="cursor-pointer px-8 py-3 bg-[#FEC544] rounded-3xl text-xl font-bold text-[#0A101E] mt-4 mb-4 w-80" type="submit" value={"Send Message"} />
 
                     </form>

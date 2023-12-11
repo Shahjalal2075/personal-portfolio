@@ -14,9 +14,9 @@ const PortfolioCard = ({ portfolio, idx }) => {
                     </form>
                     <img src={portfolio.photo} alt="" />
                     <div className="flex justify-between mt-10">
-                        <a className='px-6 py-3 bg-[#FEC544] rounded-3xl text-lg font-bold text-[#0A101E]' href="">Client Code</a>
-                        <a className='px-6 py-3 bg-[#FEC544] rounded-3xl text-lg font-bold text-[#0A101E]' href="">Server Code</a>
-                        <a className='px-6 py-3 bg-[#FEC544] rounded-3xl text-lg font-bold text-[#0A101E]' href="">Live Link</a>
+                        <a className='px-6 py-3 bg-[#FEC544] rounded-3xl text-lg font-bold text-[#0A101E]' target='blank' href={portfolio.client_code}>Client Code</a>
+                        <a className='px-6 py-3 bg-[#FEC544] rounded-3xl text-lg font-bold text-[#0A101E]' target='blank' href={portfolio.server_code}>Server Code</a>
+                        <a className='px-6 py-3 bg-[#FEC544] rounded-3xl text-lg font-bold text-[#0A101E]' target='blank' href={portfolio.live_link}>Live Link</a>
                     </div>
                 </div>
             </dialog>
