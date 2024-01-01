@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types';
 
-const PortfolioCard = ({ portfolio, idx }) => {
+const PortfolioCard = ({ portfolio}) => {
+
+    const idx=portfolio.id;
 
     return (
         <div>
@@ -27,6 +29,5 @@ const PortfolioCard = ({ portfolio, idx }) => {
 export default PortfolioCard;
 
 PortfolioCard.propTypes = {
-    portfolio: PropTypes.object,
-    idx: PropTypes.id
+    portfolio: PropTypes.object
 }

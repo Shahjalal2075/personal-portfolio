@@ -44,7 +44,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className="mt-10">
-                            <a target="blank" href="https://drive.google.com/file/d/1bucg9Lip6pU4tpVReUrFTpHKe_blIWI_/view?usp=drive_link" className="px-8 py-3 bg-[#FEC544] rounded-3xl text-xl font-bold text-[#0A101E]">Download CV</a>
+                            <a target="blank" href="public/resume.pdf" className="px-8 py-3 bg-[#FEC544] rounded-3xl text-xl font-bold text-[#0A101E]" download={true}>Download Resume</a>
                         </div>
                     </div>
                 </div>

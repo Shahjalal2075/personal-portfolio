@@ -6,11 +6,11 @@ const Portfolio = () => {
     const [portfolios,setPortfolios]=useState([]);
 
     useEffect(() => {
-        fetch('../../../public/portfolios.json')
+        fetch('portfolios.json')
             .then(res => res.json())
             .then(data => setPortfolios(data))
     }, []);
-
+console.log(portfolios);
 
     return (
         <div>
@@ -18,10 +18,9 @@ const Portfolio = () => {
 
             <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 mx-5">
                 {
-                    portfolios.map((portfolio,idx) => <PortfolioCard
-                        key={idx}
+                    portfolios.map((portfolio) => <PortfolioCard
+                        key={portfolio.id}
                         portfolio={portfolio}
-                        idx={idx}
                     ></PortfolioCard>)
                 }
             </div>
